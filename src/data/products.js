@@ -235,20 +235,7 @@ export const categories = [
           { label: "Fuel tank", value: "70 L" },
         ],
       },
-      {
-        slug: "jd-5050-4wd",
-        name: "JOHN DEERE 5050D 4WD",
-        hp: "55 HP",
-        summary: "John Deere 5310 is a 55 HP tractor designed for exceptional power and reliability. Its state-of-the-art technology makes it the best choice",
-        image: Jd5310d4,
-        download : Download50504wd,
-        specs: [
-          { label: "Engine", value: "3-cylinder, 55 HP" },
-          { label : "Drive", value : "Drive 4WD"},
-          { label: "Width", value: "1,250 mm" },
-          { label: "Fuel tank", value: "45 L" },
-        ],
-      },
+     
 
       {
         slug: "jd-5405-2wd",

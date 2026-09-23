@@ -182,7 +182,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="mx-auto max-w-content px-6 py-24 lg:px-10">
+      {/* <section className="mx-auto max-w-content px-6 py-24 lg:px-10">
         <Reveal>
           <p className="text-sm font-medium text-harvest">Trusted locally</p>
           <h2 className="mt-3 max-w-lg font-serif text-3xl font-semibold leading-tight text-field lg:text-4xl">
@@ -201,13 +201,13 @@ export default function Home() {
                 "{t.quote}"
               </p>
               <div className="mt-6">
-                {/* <p className="font-medium text-field">{t.name}</p>
-                <p className="text-sm text-stone">{t.role}</p> */}
+                <p className="font-medium text-field">{t.name}</p>
+                <p className="text-sm text-stone">{t.role}</p>
               </div>
             </Reveal>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Final CTA */}
       <section className="mx-auto max-w-content px-6 pb-24 lg:px-10">

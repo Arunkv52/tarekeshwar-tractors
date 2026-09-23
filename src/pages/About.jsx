@@ -1,27 +1,6 @@
 import PageHeader from "../components/PageHeader";
 import Reveal from "../components/Reveal";
-import EmptyImg from '../assets/about/emptyimg.jpg'
-
-const team = [
-  {
-    name: "Rajendran K.",
-    role: "Founder",
-    bio: "Started the business in 2012 with a single tractor rental service. Still visits every farm before recommending a machine.",
-    image: EmptyImg,
-  },
-  {
-    name: "Meena R.",
-    role: "Chief Executive Officer",
-    bio: "Leads day-to-day operations and partnerships with manufacturers, ensuring every machine we sell meets our standards.",
-    image: EmptyImg,
-  },
-  {
-    name: "Suresh P.",
-    role: "Service Manager",
-    bio: "Runs our technician team and spare parts stock, keeping response times fast during peak farming seasons.",
-    image: EmptyImg,
-  },
-];
+import EmptyImg from "../assets/about/emptyimg.jpg";
 
 const reasons = [
   {
@@ -60,9 +39,9 @@ export default function About() {
               A family business rooted in the land we serve
             </h2>
             <p className="mt-5 max-w-md text-[17px] leading-relaxed text-stone">
-              We started as a small tractor rental outfit in 2012 and grew
-              into a full dealership because farmers kept asking us for the
-              same honesty we gave them on rentals — now applied to sales,
+              We started as a small tractor rental outfit in 2012 and grew into
+              a full dealership because farmers kept asking us for the same
+              honesty we gave them on rentals — now applied to sales,
               implements, and harvesting equipment.
             </p>
           </Reveal>
@@ -72,10 +51,10 @@ export default function About() {
               Equipment, advice, and support in one place
             </h2>
             <p className="mt-5 max-w-md text-[17px] leading-relaxed text-stone">
-              We sell tractors, implements, and harvesters suited to local
-              soil and crop conditions, and back every sale with scheduled
-              servicing, genuine spare parts, and a technician team that
-              knows your machine.
+              We sell tractors, implements, and harvesters suited to local soil
+              and crop conditions, and back every sale with scheduled servicing,
+              genuine spare parts, and a technician team that knows your
+              machine.
             </p>
           </Reveal>
         </div>
@@ -112,30 +91,28 @@ export default function About() {
       {/* Team */}
       <section className="mx-auto max-w-content px-6 py-24 lg:px-10">
         <Reveal>
-          <p className="text-sm font-medium text-harvest">The people behind it</p>
+          <p className="text-sm font-medium text-harvest">
+            Welcome to Tarakeshwara Tractors & Implements
+          </p>
           <h2 className="mt-3 max-w-lg font-serif text-3xl font-semibold leading-tight text-field lg:text-4xl">
-            Meet our leadership
+            Your Trusted Partner in Agriculture
           </h2>
         </Reveal>
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {team.map((member, i) => (
-            <Reveal key={member.name} delay={i * 100}>
-              <div className="overflow-hidden rounded-md">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="h-72 w-full object-cover"
-                />
-              </div>
-              <h3 className="mt-5 font-serif text-lg font-semibold text-field">
-                {member.name}
-              </h3>
-              <p className="text-sm font-medium text-harvest">{member.role}</p>
-              <p className="mt-2 text-[15px] leading-relaxed text-stone">
-                {member.bio}
-              </p>
-            </Reveal>
-          ))}
+        <div className="mt-12 grid gap-8 sm:grid-cols-1 lg:grid-cols-1">
+          <p>
+            Tarakeshwara Tractors & Implements is one of the leading dealers of
+            tractors, agricultural implements, and harvesters, dedicated to
+            supporting farmers with high-quality farming solutions. With a
+            strong network of 8 branches, we ensure that modern agricultural
+            machinery and reliable customer support are always within reach.
+          </p>
+          <p>
+            Our strategically located showrooms cover a wide service area,
+            ensuring that farmers can access our products and services within a
+            convenient distance. With a presence extending across multiple
+            regions, we are committed to delivering excellence in agricultural
+            mechanization and empowering farming communities.
+          </p>
         </div>
       </section>
     </div>
