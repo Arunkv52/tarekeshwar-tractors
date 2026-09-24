@@ -1,7 +1,7 @@
 import TractorsImg from "../assets/products/3028EN_Front_Right_Studio.jpg";
 import ImplementsImg from "../assets/home/implements.avif";
 import HarvesterImg from "../assets/home/harvester.webp";
-import Jd5105d from '../assets/products/jd5105-4wd.jpeg'
+import Jd5105d from '../assets/products/5105_2wd.avif'
 import Jd5105d4 from '../assets/products/jd5105.png'
 import Jd5045d from '../assets/products/jd5045d.webp'
 import Jd5045d4 from '../assets/products/jd5050d-4wd.png'
@@ -11,10 +11,9 @@ import Jd5050d4 from '../assets/products/jd5050d-4wd.png'
 
 import Jd5210d from '../assets/products/5210-2.png'
 import Jd5210d4 from '../assets/products/5210-4.png'
-import Jd5310d from '../assets/products/5310-2.png'
-import Jd5310d4 from '../assets/products/5310-4.png'
+import Jd5310d from '../assets/products/5310-4.png'
 import Jd5405d from '../assets/products/5405-2.png'
-import Jd5405d4 from '../assets/products/5405-4.png'
+import Jd5405d4 from '../assets/products/5405_4wd.avif'
 import Jd5075d4 from '../assets/products/5075-4.png'
 
 
@@ -236,21 +235,6 @@ export const categories = [
         ],
       },
      
-
-      {
-        slug: "jd-5405-2wd",
-        name: "JOHN DEERE 5405 2WD",
-        hp: "63 HP",
-        summary : "John Deere 5405 is a powerful 63 HP tractor, available in both 2WD and 4WD options. Its powerful turbocharged engine delivers",
-        image: Jd5405d,
-        download : Download54052wd,
-        specs: [
-          { label: "Engine", value: "4-cylinder turbo, 63 HP" },
-          { label : "Drive", value : "Drive 2WD"},
-          { label: "Lift capacity", value: "2,400 kg" },
-          { label: "Fuel tank", value: "70 L" },
-        ],
-      },
       {
         slug: "jd-5405-4wd",
         name: "JOHN DEERE 5405 4WD",
@@ -335,14 +319,15 @@ export const categories = [
         download : PaddyBrochure
       },
        {
-        slug: "fertilizer-drill",
+        slug: "seed-cum",
         name: "Seed Cum Fertilizer Drill",
         summary: "Green System offers a variety of high-quality tillage implements to get the job done right.",
-        image: Seed,
-        download : RotaryBrochure
+        image: Seed
+       
       },
     ],
   },
+  // Harvester
   {
     slug: "harvester",
     name: "Harvester",
@@ -352,32 +337,41 @@ export const categories = [
     image: HarvesterImg,
     products: [
       {
-        slug: "45-standard-2wheel",
-        name: "45 Standard Combine Harvesters -Two Wheel Drive",
+        slug: "55-standard-4wheel",
+        name: "55 HP Standard Combine Harvesters -Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        image: twowheel45,
+        
         download : Download3028
       },
       {
-        slug: "51-standard-2wheel",
-        name: "51 Standard Combine Harvesters -Two Wheel Drive",
+        slug: "55-balkar-4wheel",
+        name: "55 HP Balkar Combine Harvesters -Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        image: twowheel51,
         download : Download3028
       
       },
       {
-        slug: "45-standard-4wheel",
-        name: "45 Standard Combine Harvesters-Four Wheel Drive",
+        slug: "63-standard-2wheel",
+        name: "63 Standard Combine Harvesters-Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        image: fourwheel45,
         download : Download3028
       },
       {
-        slug: "51-standard-4wheel",
-        name: "51 Standard Combine Harvesters-Four Wheel Drive",
+        slug: "63-balkar-4wheel",
+        name: "63 Balkar Combine Harvesters-Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        image: fourwheel51,
+        download : Download3028
+      },
+       {
+        slug: "75-standard-4wheel",
+        name: "75 Standard Combine Harvesters-Four Wheel Drive",
+        summary: "Self-propelled combine harvester for paddy and wheat.",
+        download : Download3028
+      },
+      {
+        slug: "75-balkar-4wheel",
+        name: "75 Balkar Combine Harvesters-Four Wheel Drive",
+        summary: "Self-propelled combine harvester for paddy and wheat.",
         download : Download3028
       },
     ],

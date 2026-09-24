@@ -78,7 +78,7 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-base text-cream">Visit us</h4>
             <p className="mt-4 text-sm leading-relaxed text-cream/60">
-              No. 15/8B, Sivam Nagar,<br /> Anaipirandhan(Village) Chengam Main Road, Tiruvannamalai - 600 603, <br /> Tamil Nadu, India.
+              No. 15/8B, Sivam Nagar,<br />Chengam Main Road Anaipirandhan(Village), <br /> Tiruvannamalai - 600 603, <br /> Tamil Nadu, India.
             </p>
             <p className="mt-3 text-sm text-cream/60">+91 95855 50725</p>
             <p className="text-sm text-cream/60">prasanna.38s@gmail.com</p>
@@ -107,7 +107,7 @@ export default function Footer() {
 
         <div className="mt-14 flex flex-col gap-3 border-t border-cream/10 pt-6 text-xs text-cream/45 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {new Date().getFullYear()} Tarekeshwara Tractors. Developed by Prism Adverto Pvt Ltd
+            © {new Date().getFullYear()} Tarakeshwar Tractors. Developed by Prism Adverto Pvt Ltd
           </p>
           <p>Serving farmers across Tamil Nadu since 2012.</p>
         </div>

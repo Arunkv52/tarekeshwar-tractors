@@ -27,7 +27,7 @@ export default function About() {
       <PageHeader
         eyebrow="About us"
         title="Built by farmers, for farmers."
-        description="Tarekeshwara Tractors has spent 14 years helping local farms find the right equipment and keep it running."
+        description="Tarakeshwar Tractors has spent 14 years helping local farms find the right equipment and keep it running."
       />
 
       {/* Who we are / What we do */}
@@ -92,7 +92,7 @@ export default function About() {
       <section className="mx-auto max-w-content px-6 py-24 lg:px-10">
         <Reveal>
           <p className="text-sm font-medium text-harvest">
-            Welcome to Tarakeshwara Tractors & Implements
+            Welcome to Tarakeshwar Tractors 
           </p>
           <h2 className="mt-3 max-w-lg font-serif text-3xl font-semibold leading-tight text-field lg:text-4xl">
             Your Trusted Partner in Agriculture
@@ -100,7 +100,7 @@ export default function About() {
         </Reveal>
         <div className="mt-12 grid gap-8 sm:grid-cols-1 lg:grid-cols-1">
           <p>
-            Tarakeshwara Tractors & Implements is one of the leading dealers of
+            Tarakeshwar Tractors  is one of the leading dealers of
             tractors, agricultural implements, and harvesters, dedicated to
             supporting farmers with high-quality farming solutions. With a
             strong network of 8 branches, we ensure that modern agricultural
