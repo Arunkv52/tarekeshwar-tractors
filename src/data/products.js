@@ -26,10 +26,7 @@ import Multicrop from '../assets/products/implements/multi-crop.webp'
 import Paddy from '../assets/products/implements/paddy-special.jpg'
 
 // Harvester
-import twowheel45 from '../assets/products/harvesters/45-standard-combine.jpeg'
-import twowheel51 from '../assets/products/harvesters/51-standard-combine.jpeg'
-import fourwheel45 from '../assets/products/harvesters/45-standard-combine-four.jpeg'
-import fourwheel51 from '../assets/products/harvesters/51-standard-combine-four.jpeg'
+
 
 
 
@@ -340,39 +337,32 @@ export const categories = [
         slug: "55-standard-4wheel",
         name: "55 HP Standard Combine Harvesters -Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        
-        download : Download3028
-      },
+              },
       {
         slug: "55-balkar-4wheel",
         name: "55 HP Balkar Combine Harvesters -Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        download : Download3028
       
       },
       {
         slug: "63-standard-2wheel",
         name: "63 Standard Combine Harvesters-Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        download : Download3028
       },
       {
         slug: "63-balkar-4wheel",
         name: "63 Balkar Combine Harvesters-Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        download : Download3028
       },
        {
         slug: "75-standard-4wheel",
         name: "75 Standard Combine Harvesters-Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        download : Download3028
       },
       {
         slug: "75-balkar-4wheel",
         name: "75 Balkar Combine Harvesters-Four Wheel Drive",
         summary: "Self-propelled combine harvester for paddy and wheat.",
-        download : Download3028
       },
     ],
   },
