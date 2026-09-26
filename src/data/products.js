@@ -4,15 +4,14 @@ import HarvesterImg from "../assets/home/harvester.webp";
 import Jd5105d from '../assets/products/5105_2wd.avif'
 import Jd5105d4 from '../assets/products/jd5105.png'
 import Jd5045d from '../assets/products/jd5045d.webp'
-import Jd5045d4 from '../assets/products/jd5050d-4wd.png'
+import J5045d4wd from '../assets/products/new-5045-4wd.avif'
 import Jd5050d from '../assets/products/jd5050d.png'
-import Jd5050d4 from '../assets/products/jd5050d-4wd.png'
+import Jd5050d4 from '../assets/products/5050_4wd.avif'
 
 
 import Jd5210d from '../assets/products/5210-2.png'
 import Jd5210d4 from '../assets/products/5210-4.png'
 import Jd5310d from '../assets/products/5310-4.png'
-import Jd5405d from '../assets/products/5405-2.png'
 import Jd5405d4 from '../assets/products/5405_4wd.avif'
 import Jd5075d4 from '../assets/products/5075-4.png'
 
@@ -149,8 +148,8 @@ export const categories = [
         slug: "jd-5045-4wd",
         name: "JOHN DEERE 5045D 4WD",
         hp: "45 HP",
-        image: Jd5045d4,
-        summary:"John Deere 5045 is a power packed agricultural tractor with high back up torque and accelerated productivity towards all agricultural applications.",        image: Jd5105d,
+        image: J5045d4wd,
+        summary:"John Deere 5045 is a power packed agricultural tractor with high back up torque and accelerated productivity towards all agricultural applications.",
         download : Download50454wd,
         specs: [
           { label: "Engine", value: "3-cylinder, 45 HP" },
